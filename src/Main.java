@@ -17,6 +17,7 @@ public class Main {
         for (int i = 0; i < x.length; i++) {
             x[i] = ((float) (Math.random() * (MAX - MIN)) + MIN);
         }
+        
         double[][] a = new double[9][14];
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
